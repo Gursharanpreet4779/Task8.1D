@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(124, 116, 116);
+}
+
+.NewPostBar {
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(23, 67, 67);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 50px auto;
+  color: white;
+}
+
+.NewPostBar h2 {
+  margin-bottom: 20px;
+}
+
+.NewPostBar input[type="text"],
+.NewPostBar textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.NewPostBar input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.NewPostBar button {
+  background-color: #f4f4f4;
+  color: #7a0000;
+  font-size: 15px;
+  padding: 15px 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.NewPostBar button:hover {
+  background-color: #000000;
+}
+
+.NewPostBar progress {
+  width: 100%;
+  margin-top: 10px;
+}

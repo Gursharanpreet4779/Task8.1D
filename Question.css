@@ -1,0 +1,46 @@
+.question-list {
+  width: 70%;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.filter-input {
+  margin-bottom: 25px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.add-question-form {
+  margin-bottom: 35px;
+}
+
+.question-card {
+  margin: 15px 0;
+  padding: 20px;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+}
+
+.question-card:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.question-card .header {
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+}
+
+.question-card .meta {
+  margin-top: 8px;
+  color: #777;
+  font-size: 14px;
+}
+
+.question-card .description {
+  margin-top: 12px;
+  color: #444;
+  font-size: 16px;
+}
